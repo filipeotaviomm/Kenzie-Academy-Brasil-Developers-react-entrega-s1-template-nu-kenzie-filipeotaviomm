@@ -1,0 +1,12 @@
+@media (min-width: 900px) {
+  .containerFlex {
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+    align-items: flex-start;
+  }
+
+  .containerLeft {
+    flex-grow: 1;
+  }
+}

@@ -1,0 +1,64 @@
+h1,
+h2 {
+  color: var(--color-black);
+}
+
+label {
+  color: var(--color-black);
+  font-weight: 400;
+  font-size: 12px;
+}
+
+.form {
+  font-family: var(--font-inter);
+  font-weight: 400;
+  color: var(--color-darkGrey);
+
+  &.lg {
+    font-size: 16px;
+  }
+
+  &.sm {
+    font-size: 12px;
+  }
+}
+
+.title {
+  font-family: var(--font-nunito);
+  font-weight: 700;
+  font-size: 16px;
+
+  &.pink {
+    color: var(--color-pink);
+  }
+}
+
+.paragraph {
+  font-family: var(--font-nunito);
+  font-weight: 400;
+
+  &.lg {
+    font-size: 22px;
+    font-weight: 700;
+  }
+  &.md {
+    font-size: 12px;
+  }
+  &.sm {
+    font-size: 10px;
+  }
+}
+
+.span {
+  font-family: var(--font-nunito);
+
+  &.lg {
+    font-weight: 700;
+    font-size: 16px;
+  }
+
+  &.sm {
+    font-weight: 400;
+    font-size: 12px;
+  }
+}

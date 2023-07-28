@@ -1,0 +1,19 @@
+.insertButton {
+  height: 48px;
+  width: 100%;
+  padding: 0 20px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  background-color: var(--color-pink);
+  color: #ffffff;
+  font-family: var(--font-inter);
+  font-weight: 500;
+  font-size: 16px;
+  transition: 0.4s;
+
+  &:hover {
+    filter: brightness(1.2);
+  }
+}

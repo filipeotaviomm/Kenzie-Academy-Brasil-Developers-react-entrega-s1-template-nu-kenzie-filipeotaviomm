@@ -1,0 +1,13 @@
+.containerGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 30px;
+  border: 1px solid rgb(177, 176, 176);
+  padding: 30px 20px;
+
+  .totalValue {
+    display: flex;
+    justify-content: space-between;
+  }
+}
